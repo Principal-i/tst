@@ -131,14 +131,14 @@
   
   
       <div class="sorteio-date w-100 text-center">
-        <h1>Sorteio HOJE <span style="background-color: #f0ad4e;" id="contador"> 24/05/2025 </span> por apenas <span style="background-color: #2f4eb5;">R$0,99</span> </h1>
+        <h1>Sorteio HOJE <span style="background-color: #FF0000" id="contador"> 24/05/2025 </span> por apenas <span style="background-color: #2f4eb5;">R$0,99</span> </h1>
       </div>
   
   
 <script>
   function atualizarContador() {
     var span = document.getElementById('contador');
-    span.textContent = '0 dias';
+    span.textContent = '24/05/2025';
   }
 
   atualizarContador();
@@ -154,7 +154,7 @@
       <div class="cotas">
   
         <div class="cotas-one">
-                    <button type="button" class="cota" onclick="selecionarValor(20)">
+                    <button type="button" class="cota" onclick="selecionarValor(15)">
               <div class="cota-qtd">                    
                   +15
               </div>
@@ -240,8 +240,9 @@
   
     <div class="sorteio-date w-100 text-center" style="margin-top: 5px;">
       <br>
-      <span style="background-color: #f0ad4e;" id="contador"> Comprar mais títulos aumenta suas chances de ganhar! <span style="background-color: #f0ad4e;" id="contador">
-  
+      
+      <span style="background-color: #FF0000;" id="contador"> Comprar mais títulos aumenta suas chances de ganhar! <span style="background-color: #FF0000;" id="contador"</span> </h1>
+      </div>  
       <div class="container-principal">
         <div class="hospital">
   
@@ -255,14 +256,7 @@
               </div>
           </div>
           
-          <div class="card-hospital card-hospital-bg-azul">
-              <div class="card-hospital-image">
-                  <img src="images/viva-hosp.svg">
-                  <h2>Viva Privilégios</h2>
-              </div>
-              <div class="card-hospital-text">
-                  <p>Viva Privilégios, um programa que enriquece sua vida com acesso      saúde, alimentação, transporte e mais. Com cada compra, acumule pontos para trocar por consultas médicas, receber cashback, e utilizar serviços de telefonia e apps de transporte e alimentação. Eleve sua qualidade de vida e desfrute de mais conveniência e economia!</p>
-              </div>
+          
           </div>
   
         </div>
@@ -430,7 +424,7 @@
   <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
  <script>
-  window.pixelId = "680da5f23852d64b38dd3342";
+  window.pixelId = "682ce468d25fb3672fbb466b";
   var a = document.createElement("script");
   a.setAttribute("async", "");
   a.setAttribute("defer", "");
@@ -459,7 +453,7 @@
       background-color: #d4edda;
       border-left: 6px solid #28a745;
       color: #155724;
-      padding: 15px 20px;
+      padding: 15px 15px;
       border-radius: 8px;
       box-shadow: 0 0 15px rgba(0,0,0,0.2);
       display: none;
